@@ -1,0 +1,8 @@
+def current_date():
+    from datetime import datetime,timedelta
+    current_date = datetime.now()
+    day = str(current_date.day)
+    month = str(current_date.month)
+    year = str(current_date.year)
+    print('Current date is: ', '{0}-{1}-{2}'.format(day,month,year))
+current_date()
